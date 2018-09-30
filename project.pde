@@ -42,10 +42,10 @@ void keyPressed() //Obtained from https://processing.org/reference/keyPressed_.h
       }
     }
     
-    if(h > height )
+    if(h > height-50)
     {
       background(209);
-      h = 130;
+      h = 140;
     }
     
     //decimal to binary
